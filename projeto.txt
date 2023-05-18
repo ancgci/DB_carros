@@ -1,0 +1,34 @@
+DataBase Carros
+
+Carros:
+
+- MARCAS
+- INVENTÁRIO
+- CLIENTE
+
+
+CREATE TABLE marcas ( 
+   id integer not null auto_increment,
+   nome_marca VARCHAR(255) NOT NULL,
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE inventário (
+   id integer not null auto_increment,
+   modelo VARCHAR(255) NOT NULL,
+   transmissão VARCHAR(255) NOT NULL,
+   motor VARCHAR(255) NOT NULL,
+   combustivel  VARCHAR(255) NOT NULL,  
+   marcas_id integer not null,
+   PRIMARY KEY (id),
+   FOREIGN KEY (marcas_id) references marcas(id) 
+);
+
+
+CREATE TABLE clientes (
+   id integer not null auto_increment,
+   nome VARCHAR(255) NOT NULL,
+   sobrenome VARCHAR(255) NOT NULL,
+   endereço VARCHAR(255) NOT NULL,
+   PRIMARY KEY(id)
+);
