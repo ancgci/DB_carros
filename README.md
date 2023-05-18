@@ -10,3 +10,8 @@ O banco de dado fora construido no aprendizado da linguagem SQL com o programa M
 - MYSQL
 
 ## Imagens
+
+![Data Base Carros ](https://github.com/ancgci/DB_carros/blob/main/1.jpg)
+![Inventário](https://github.com/ancgci/DB_carros/blob/main/2.jpg)
+![Marcas](https://github.com/ancgci/DB_carros/blob/main/3.jpg)
+![Clientes](https://github.com/ancgci/DB_carros/blob/main/5.jpg)
